@@ -11,5 +11,5 @@ Collection of scripts for the 1st part of the SC data analysis course
 | stringTie.sh | used to take our trimmed RNA reads and assemble them into a new annotation file (.gtf) |
 | featureCount_newAnno.sh | used to get a proxy of the expression levels using our newly assembled annotation |
 | filter.seqs.py | python script used to remove "." from the amino acid sequence of our protein sequences - since they caused issues running 'emapper' |
-| emapper.sh | Description 2 |
-| cellranger.sh | Description 2 |
+| emapper.sh | used to perform functional annotation on an RNA/AA sequence - assigns functions to genes based on the sequence and their proposed orthologs  |
+| cellranger.sh | used to map scRNA reads to a reference genome and generating a count matrix (similar to 'featureCounts') containing the number of reads associated with the individual cells |
