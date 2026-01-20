@@ -15,4 +15,5 @@ module load STAR
 module list
 
 ### EXECUTION
+# I used '--genomeDir' to specify the directory where the indexed genome is
 STAR --genomeDir /lisc/data/scratch/course/2025w300106/hoeller/Plit_STAR --runThreadN 16 --readFilesIn /lisc/data/scratch/course/2025w300106/hoeller/ERR13719748_1.fastq /lisc/data/scratch/course/2025w300106/hoeller/ERR13719748_2.fastq --outFileNamePrefix /lisc/data/scratch/course/2025w300106/hoeller/results/map/ERR13719748_Plit_ --outSAMstrandField intronMotif --outSAMtype BAM SortedByCoordinate
