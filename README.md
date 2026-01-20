@@ -1,7 +1,7 @@
 # scCourse-2025w
 This is a collection of the slurm scripts (+ 1 python script) written during the 1st part of the course 'Analyses of single cell transcriptome data' (2025W)
 
-## Content of repository
+## Contents of repository
 | File | Description |
 | ---- | ----------- |
 | star_align.sh | used to align short RNA reads to a reference genome |
