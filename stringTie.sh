@@ -18,10 +18,10 @@ module list
 inBAM="/lisc/data/scratch/course/2025w300106/hoeller/results/map/trimmed/filtered.bam"
 
 ### EXECUTION
-# I use -l to define a prefix for my assembly
-# I use -o to specify my output file
-# I use -p to specify the amount of CPUs
-# I use -j to specify the minimal junction coverage
-# I use -g to specify how large gaps between reads can maximally be
-# I use -m to specify the minimal transcript lenghts
+# I use '-l' to define a prefix for my output transcripts
+# I use '-o' to specify the name of my output file
+# I use '-p' to specify the amount of CPUs to use
+# I use '-j' to specify the minimal junction coverage
+# I use '-g' to specify how large gaps between reads can maximally be
+# I use '-m' to specify the minimal transcript lenghts
 stringtie $inBAM -l Plit_zygote -o Plit.stringtie.gtf -p 4 -j 5 -g 200 -m 200
