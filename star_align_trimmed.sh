@@ -20,6 +20,13 @@ readDir="$wd/results/trimmomatic"
 
 
 ### EXECUTION
+# I used 'mkdir' to create the directory into which the outfiles will be put
+  ## I used '-p' to create parent directories as needed
+# I used '--runThreadN' to specify how many many CPUs to use for the task
+# I used '--readFilesIn' to specify the files to be mapped
+# I used '--outFileNamePrefix' to specify both the path of the output files as well as the prefix which all resulting files will have
+# I used '--outSAMstrandField intronMotif' to generate an XS strand attribute for alignments that have splice junctions (not discussed during course as far as I remember)
+# I used '--outSAMtype BAM SortedByCoordinate' to create a sorted BAM file as the output
 echo "Started at $(date)"
 mkdir -p $wd/results/map/trimmed
 
