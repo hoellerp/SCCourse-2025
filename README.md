@@ -1,5 +1,6 @@
 # scCourse-2025w
-Collection of scripts for the 1st part of the SC data analysis course
+This is a collection of the slurm scripts (+ 1 python script) written during the 1st part of the course 'Analyses of single cell transcriptome data' (2025W)
+
 ## Content of repository
 | File | Description |
 | ---- | ----------- |
